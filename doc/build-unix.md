@@ -17,7 +17,7 @@ To Build
 
 ```bash
 ./autogen.sh
-./configure
+./configure CXXFLAGS="-g -ggdb -O0"  #recommended
 make
 make install # optional
 ```
