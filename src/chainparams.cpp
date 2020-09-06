@@ -149,6 +149,7 @@ public:
         vSeeds.push_back(CDNSSeedData("rilcoin.org", "192.187.97.75"));
         vSeeds.push_back(CDNSSeedData("rilcoin.org", "192.187.97.76"));
         vSeeds.push_back(CDNSSeedData("rilcoin.org", "192.187.97.78"));
+        vSeeds.push_back(CDNSSeedData("rilcoin.org", "204.12.250.230"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,49);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -207,7 +208,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("rilcoin.org", "217.182.224.94"));
+        vSeeds.push_back(CDNSSeedData("rilcoin.org", "204.12.250.230"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,49);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
